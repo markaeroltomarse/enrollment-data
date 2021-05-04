@@ -39,5 +39,8 @@ const companyinfo = {
         type:Array,
         required:true,
         description:'ex ["BSIT", ....]'
-    }
+    },
+
+    schoolQuarter:Array, 
+    // [{quarterID:124214, quarter:'1st'}, ...]
 }
