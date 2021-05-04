@@ -24,5 +24,11 @@ const curriculum = {
             }
         ],
     },
+
+    created:{
+        type:String,
+        required:true,
+        default:Date.now()
+    }
 }
 

@@ -51,6 +51,12 @@ const room = {
                 //so on....
             },
         ]
+    },
+
+    created:{
+        type:String,
+        required:true,
+        default:Date.now()
     }
 
 }

@@ -49,6 +49,11 @@ const Schedule = {
         ]
     },
 
+    created:{
+        type:String,
+        required:true,
+        default:Date.now()
+    }
    
 
     

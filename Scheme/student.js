@@ -64,4 +64,23 @@ const student = {
         required:true,
         description:"Student Password",
     },
+
+    grades:{
+        type:Array,
+        required:false,
+        description:'Grades each Subjects',
+        example:[
+            {
+                subjectID:'ID from subject table',
+                grade:1.0
+            },
+            'so on...'
+        ]
+    },
+
+    created:{
+        type:String,
+        required:true,
+        default:Date.now()
+    }
 }
