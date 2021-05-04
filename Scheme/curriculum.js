@@ -19,7 +19,7 @@ const curriculum = {
             {
                 subjectID:'ID from subject table',
                 sem:'1 or 2',
-                year:'1,2,3 or 4',
+                yearLvl:'1,2,3 or 4',
                 number:'between 1 to (total of subjects from first year to fourth year)'
             }
         ],

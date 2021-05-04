@@ -1,9 +1,14 @@
 const room = {
     
-    roomNumber:{
+    roomName:{
         type:String,
         required:true,
         description:'Class room Number'
+    },
+
+    roomYear:{
+        type:Number,
+        required:true,
     },
 
     available:{
@@ -12,16 +17,10 @@ const room = {
         description:'Room availability',
     },
 
-    roomDay:{
-        type:String,
-        required:true,
-        description:'ex. MON'
-    },
-
-    roomBatchTime:{ //gagawin ni admin to monday to sunday (sunday if may klase parin sakanila), each day hahatiin nya mga oras ng mag kakasunod para pag gagawa ng sechdule para sa isang section ay pipick nalang sila ng time sa room na ito dipende kugn anong araw nila gusto. imagine mo ung buong pizza ay katumbas ng 24hrs habang nababawasan ng slice ung pizza nauubos madin ung mga available time sa araw na iyon hangang sa maubos at pumili sa ibang araw.
+    monday:{
         type:Array,
         required:true,
-        description:'The day have list of each batch of time to this room',
+        description:'The day have list of each session to this room',
         example:[
             {
                 id:'i-generate nalang natin using random method basta maging unique',
@@ -53,6 +52,40 @@ const room = {
         ]
     },
 
+    tuesday:{
+        type:Array,
+        required:true,
+        description:'The day have list of each session to this room',
+        
+    },
+
+    wednesday:{
+        type:Array,
+        required:true,
+        description:'The day have list of each session to this room',
+        
+    },
+
+    thursday:{
+        type:Array,
+        required:true,
+        description:'The day have list of each session to this room',
+        
+    },
+
+    friday:{
+        type:Array,
+        required:true,
+        description:'The day have list of each session to this room',
+        
+    },
+
+    saturday:{
+        type:Array,
+        required:true,
+        description:'The day have list of each session to this room',
+        
+    },
     created:{
         type:String,
         required:true,

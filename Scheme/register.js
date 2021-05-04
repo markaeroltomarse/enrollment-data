@@ -35,7 +35,7 @@ const Registration = {
         //middle name
     },
 
-    extensionName:{
+    extName:{
         type:String,
         required:true,
         //Extension name
@@ -84,5 +84,23 @@ const Registration = {
     contactNumber:{
         type:String,
         required:true,
+    },
+
+    bcertificate:{
+        type:Object,
+        required:true,
+        //{ submitted: true, url: ''}
+    },
+
+    form138:{
+        type:Object,
+        required:true,
+        //{ submitted: true, url: ''}
+    },
+
+    form137:{
+        type:Object,
+        required:true,
+        //{ submitted: true, url: ''}
     }
 }

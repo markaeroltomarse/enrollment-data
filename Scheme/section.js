@@ -5,6 +5,11 @@ const Section = {
         //Section Year
     },
 
+    yearLvl:{
+        type:Number,
+        required:true
+    },
+
     secName:{
         type:String,
         required:true,

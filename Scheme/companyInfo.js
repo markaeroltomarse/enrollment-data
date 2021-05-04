@@ -44,3 +44,29 @@ const companyinfo = {
     schoolQuarter:Array, 
     // [{quarterID:124214, quarter:'1st'}, ...]
 }
+
+
+const users = {
+    userID:{
+        type:String,
+        required:true,
+        //ID from registrar, teacher, owner or studentInfo table etc
+    },
+
+    userType:{
+        type:String,
+        required:true,
+        //registrar, ownner etc
+    },
+
+    username:{
+        type:String,
+        required:true,
+
+    },
+
+    password:{
+        type:String,
+        required:true
+    }
+}

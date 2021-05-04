@@ -64,14 +64,16 @@ const student = {
         required:true,
         description:"Student Password",
     },
-
+    
     grades:{
         type:Array,
         required:false,
         description:'Grades each Subjects',
-        example:[
+        // 50 
+        example:[ // if (the total units of entire curriculum ) is equal
             {
                 subjectID:'ID from subject table',
+                subjectUnit:3, 
                 grade:1.0
             },
             'so on...'
